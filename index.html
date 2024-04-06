@@ -25,95 +25,195 @@
 <body>
     <header>
         <!-- navbar section start  -->
-       <div class="lg:mx-10 mx-3 mb-10">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+        <div class="lg:mx-10 mx-3 mb-10">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>Services <span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span></a>
+                            </li>
+                            <li><a>Cases <span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span></a>
+                            </li>
+                            <li><a>Blog <span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span></a>
+                            </li>
+                            <li><a>Contact Us <span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost hidden lg:block text-xl">
+                        <img src="images/Group 2.png" alt="">
+                    </a>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Home</a></li>
-                  <li><a>Services <span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span></a>
-                  </li>
-                  <li><a>Cases <span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span></a>
-                  </li>
-                  <li><a>Blog <span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span></a>
-                  </li>
-                  <li><a>Contact Us <span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span></a>
-                  </li>
-                </ul>
-              </div>
-              <a class="btn btn-ghost hidden lg:block text-xl">
-                <img src="images/Group 2.png" alt="">
-              </a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
-                  <li><a>Services <span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span></a>
-                  </li>
-                  <li><a>Cases <span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span></a>
-                  </li>
-                  <li><a>Blog <span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span></a>
-                  </li>
-                  <li><a>Contact Us <span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span></a>
-                  </li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-              <a class="btn bg-[#B68C5A] text-white">Free Consultation</a>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Services <span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span></a>
+                        </li>
+                        <li><a>Cases <span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span></a>
+                        </li>
+                        <li><a>Blog <span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span></a>
+                        </li>
+                        <li><a>Contact Us <span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-[#B68C5A] text-white">Free Consultation</a>
+                </div>
             </div>
         </div>
-       </div>
-       <!-- banner section start  -->
-       <div class="lg:mx-10 mx-3 mb-10">
-        <div class="hero min-h-[550px]" style="background-image: url(images/banner.png);">
-            <div class="hero-overlay bg-opacity-60"></div>
-            <div class="hero-content text-center text-neutral-content">
-              <div class="max-w-md">
-                <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
-                <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                <div class="flex gap-3 justify-center items-center">
-                    <input type="text" placeholder="Search your services" class="input input-bordered w-full max-w-xs" />
-                    <button class="btn btn-primary">Get Started</button>
+        <!-- banner section start  -->
+        <div class="lg:mx-10 mx-3 mb-10">
+            <div class="hero min-h-[550px]" style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+                        <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form, by injected humour.</p>
+                        <div class="flex gap-3 justify-center items-center">
+                            <input type="text" placeholder="Search your services"
+                                class="input input-bordered w-full max-w-xs" />
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-       </div>
+        </div>
+        <!-- Legal Practice Area section start  -->
+        <div class="lg:mx-10 mx-3 mb-10">
+            <div class="mb-10">
+                <h1 class="text-center text-4xl font-extrabold mb-3">The Legal Practice Area</h1>
+                <p class="text-center w-1/2 mx-auto">There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-4">
+                <!-- case one  -->
+                <div class="card card-compact p-10 text-center bg-base-100 shadow-xl">
+                    <figure><img src="images/business.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title mx-auto">Business Law</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center mt-5">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- case two  -->
+                <div class="card card-compact p-10 text-center bg-base-100 shadow-xl">
+                    <figure><img src="images/criminal.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title mx-auto">Criminal Law</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center mt-5">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- case three  -->
+                <div class="card card-compact p-10 text-center bg-base-100 shadow-xl">
+                    <figure><img src="images/child.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title mx-auto">Child Support</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center mt-5">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- case four  -->
+                <div class="card card-compact p-10 text-center bg-base-100 shadow-xl">
+                    <figure><img src="images/education.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title mx-auto">Education Law</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center mt-5">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- case five  -->
+                <div class="card card-compact p-10 text-center bg-base-100 shadow-xl">
+                    <figure><img src="images/divorce.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title mx-auto">Divorce Law</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center mt-5">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- case six  -->
+                <div class="card card-compact p-10 text-center bg-base-100 shadow-xl">
+                    <figure><img src="images/tax.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title mx-auto">Tax Law</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center mt-5">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
 
